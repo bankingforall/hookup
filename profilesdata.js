@@ -40,7 +40,7 @@
     {
       name: "Natalie Brooks",
       status: "Paris • Online",
-      avatar: "https://randomuser.me/api/portraits/women/21.jpg",
+      avatar: "https://i.pinimg.com/736x/9f/c4/f1/9fc4f13ca2d5602f21958169791b1bd1.jpg",
       caption: "Luxury fashion events, fine wine nights and exclusive experiences available.",
       hashtags: "#Fashion #Luxury #Lifestyle #Travel",
       likes: "15.7k",
