@@ -34,6 +34,9 @@
 
 
 
+
+
+
     {
       name: "Natalie Brooks",
       status: "Paris • Online",
@@ -49,10 +52,6 @@
       ]
     },
 
-
-
-
-    
     {
       name: "Sophia Lane",
       status: "Miami • Online",
@@ -73,4 +72,4 @@
 
 
   ];
-        
+      
