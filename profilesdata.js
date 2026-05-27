@@ -1,18 +1,22 @@
   const profiles = [
     {
-      name: "Sophia Lane",
-      status: "Miami • Online",
-      avatar: "https://i.pinimg.com/736x/89/77/1f/89771f5f643d4721a0c97372ec7fcd4b.jpg",
-      caption: "Sunset yacht vibes and luxury nights. Currently open for VIP bookings this weekend ✨",
-      hashtags: "#Luxury #Travel #VIP #Exclusive",
-      likes: "12.4k",
-      bookings: "2,830 Views",
+      name: "Emma Rivera",
+      status: "Dubai • Verified",
+      avatar: "https://i.pinimg.com/736x/90/0e/a7/900ea761385646bcedec1fa25b3d71b6.jpg",
+      caption: "Elegant city escapes, fine dining and unforgettable luxury experiences available.",
+      hashtags: "#LuxuryLife #FineDining #Travel #VIP",
+      likes: "18.2k",
+      bookings: "4,120 Views",
       photos: [
-        "https://i.pinimg.com/1200x/90/20/84/9020847820959f683e10e13adadaeaab.jpg",
-        "https://i.pinimg.com/1200x/ba/bd/1e/babd1ebceb8d5b22e9ea8ad88e93bb6c.jpg",
-        "https://i.pinimg.com/1200x/d6/d4/d7/d6d4d76e42ec9efd1505aa06b0156792.jpg"
+        "https://i.pinimg.com/1200x/0f/4c/50/0f4c50c371cadb75881d028c138ea6d1.jpg",
+        "https://i.pinimg.com/736x/ec/b7/d8/ecb7d859723c4a6c607c4279572bb5a6.jpg",
+        "https://i.pinimg.com/1200x/be/3e/d3/be3ed313d18b89bb9b01d5b3607efaab.jpg" 
       ]
     },
+
+
+
+
     {
       name: "Cassandra Lucas",
       status: "Los Angeles • Live",
@@ -31,23 +35,6 @@
 
 
     {
-      name: "Emma Rivera",
-      status: "Dubai • Verified",
-      avatar: "https://i.pinimg.com/736x/90/0e/a7/900ea761385646bcedec1fa25b3d71b6.jpg",
-      caption: "Elegant city escapes, fine dining and unforgettable luxury experiences available.",
-      hashtags: "#LuxuryLife #FineDining #Travel #VIP",
-      likes: "18.2k",
-      bookings: "4,120 Views",
-      photos: [
-        "https://i.pinimg.com/1200x/0f/4c/50/0f4c50c371cadb75881d028c138ea6d1.jpg",
-        "https://i.pinimg.com/736x/ec/b7/d8/ecb7d859723c4a6c607c4279572bb5a6.jpg",
-        "https://i.pinimg.com/1200x/be/3e/d3/be3ed313d18b89bb9b01d5b3607efaab.jpg" 
-      ]
-    },
-
-
-
-    {
       name: "Natalie Brooks",
       status: "Paris • Online",
       avatar: "https://randomuser.me/api/portraits/women/21.jpg",
@@ -60,6 +47,30 @@
         "https://i.pinimg.com/736x/74/ec/8f/74ec8f0f963864af7bd313cbd461fbba.jpg",
         "https://i.pinimg.com/736x/7e/60/aa/7e60aa34d4044c33da55f644981088bf.jpg"
       ]
-    }
+    },
+
+
+
+
+    
+    {
+      name: "Sophia Lane",
+      status: "Miami • Online",
+      avatar: "https://i.pinimg.com/736x/89/77/1f/89771f5f643d4721a0c97372ec7fcd4b.jpg",
+      caption: "Sunset yacht vibes and luxury nights. Currently open for VIP bookings this weekend ✨",
+      hashtags: "#Luxury #Travel #VIP #Exclusive",
+      likes: "12.4k",
+      bookings: "2,830 Views",
+      photos: [
+        "https://i.pinimg.com/1200x/90/20/84/9020847820959f683e10e13adadaeaab.jpg",
+        "https://i.pinimg.com/1200x/ba/bd/1e/babd1ebceb8d5b22e9ea8ad88e93bb6c.jpg",
+        "https://i.pinimg.com/1200x/d6/d4/d7/d6d4d76e42ec9efd1505aa06b0156792.jpg"
+      ]
+    },
+
+
+
+
+
   ];
         
