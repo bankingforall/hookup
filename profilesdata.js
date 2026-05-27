@@ -27,20 +27,26 @@
         "https://i.pinimg.com/736x/09/df/c4/09dfc4d21e48fd86c12f230d8cd7c31b.jpg"
       ]
     },
+
+
+
     {
       name: "Emma Rivera",
       status: "Dubai • Verified",
-      avatar: "https://randomuser.me/api/portraits/women/68.jpg",
+      avatar: "https://i.pinimg.com/736x/90/0e/a7/900ea761385646bcedec1fa25b3d71b6.jpg",
       caption: "Elegant city escapes, fine dining and unforgettable luxury experiences available.",
       hashtags: "#LuxuryLife #FineDining #Travel #VIP",
       likes: "18.2k",
       bookings: "4,120 Views",
       photos: [
-        "https://i.pinimg.com/736x/52/76/d6/5276d67d022ccdf8e4da3c7235fce49e.jpg",
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=600&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=600&auto=format&fit=crop"
+        "https://i.pinimg.com/1200x/0f/4c/50/0f4c50c371cadb75881d028c138ea6d1.jpg",
+        "https://i.pinimg.com/736x/ec/b7/d8/ecb7d859723c4a6c607c4279572bb5a6.jpg",
+        "https://i.pinimg.com/1200x/be/3e/d3/be3ed313d18b89bb9b01d5b3607efaab.jpg" 
       ]
     },
+
+
+
     {
       name: "Natalie Brooks",
       status: "Paris • Online",
@@ -56,3 +62,4 @@
       ]
     }
   ];
+        
