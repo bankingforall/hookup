@@ -94,15 +94,15 @@ const profiles = [
   {
     name: "Anouk Verhaegen",
     status: "Brussels • Verified",
-    avatar: "https://i.pinimg.com/736x/7c/45/9d/7c459d7b4e6a2e5d0d2fd83c1f23dc4f.jpg",
+    avatar: "https://i.pinimg.com/736x/70/82/3a/70823abfbaaa4d4a2b8c0ab4a00c88d3.jpg",
     caption: "Art gallery evenings, champagne lounges and curated luxury experiences.",
     hashtags: "#Brussels #ArtLife #LuxuryNights #Elite",
     likes: "11.6k",
     bookings: "2,410 Views",
     photos: [
       "https://i.pinimg.com/736x/7c/45/9d/7c459d7b4e6a2e5d0d2fd83c1f23dc4f.jpg",
-      "https://i.pinimg.com/736x/e0/1d/e4/e01de42d7f17d4c02e03c1ddf5d1df41.jpg",
-      "https://i.pinimg.com/736x/4f/7f/8b/4f7f8baf7d0d0a3f40a86b40d58e4f37.jpg"
+      "https://i.pinimg.com/736x/2e/fb/16/2efb16c520ea15b35d0e063a67f77469.jpg",
+      "https://i.pinimg.com/736x/07/a3/18/07a31841c4eccaa32ff4cde3b673d7c7.jpg"
     ]
   },
 
