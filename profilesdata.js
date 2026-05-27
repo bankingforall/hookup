@@ -2,15 +2,15 @@
     {
       name: "Sophia Lane",
       status: "Miami • Online",
-      avatar: "https://i.pinimg.com/736x/57/73/35/577335c59229a16495481f7bdbeef854.jpg",
+      avatar: "https://i.pinimg.com/736x/89/77/1f/89771f5f643d4721a0c97372ec7fcd4b.jpg",
       caption: "Sunset yacht vibes and luxury nights. Currently open for VIP bookings this weekend ✨",
       hashtags: "#Luxury #Travel #VIP #Exclusive",
       likes: "12.4k",
       bookings: "2,830 Views",
       photos: [
-        "https://i.pinimg.com/1200x/37/10/57/371057fe1762cd7a1487bed16932e0c2.jpg",
-        "https://i.pinimg.com/736x/5b/fa/1e/5bfa1e8349d4bd19316c43e3747278af.jpg",
-        "https://i.pinimg.com/736x/2b/41/2a/2b412ae62a05e428866c7ec8009e4283.jpg"
+        "https://i.pinimg.com/1200x/90/20/84/9020847820959f683e10e13adadaeaab.jpg",
+        "https://i.pinimg.com/1200x/ba/bd/1e/babd1ebceb8d5b22e9ea8ad88e93bb6c.jpg",
+        "https://i.pinimg.com/1200x/d6/d4/d7/d6d4d76e42ec9efd1505aa06b0156792.jpg"
       ]
     },
     {
@@ -56,9 +56,9 @@
       likes: "15.7k",
       bookings: "3,640 Views",
       photos: [
-        "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?q=80&w=800&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1496747611176-843222e1e57c?q=80&w=600&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=600&auto=format&fit=crop"
+        "https://i.pinimg.com/736x/d9/1f/7c/d91f7cf5fdc9359997be14474cdf3a83.jpg",
+        "https://i.pinimg.com/736x/74/ec/8f/74ec8f0f963864af7bd313cbd461fbba.jpg",
+        "https://i.pinimg.com/736x/7e/60/aa/7e60aa34d4044c33da55f644981088bf.jpg"
       ]
     }
   ];
