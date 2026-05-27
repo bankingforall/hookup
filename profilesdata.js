@@ -100,7 +100,7 @@ const profiles = [
     likes: "11.6k",
     bookings: "2,410 Views",
     photos: [
-      "https://i.pinimg.com/736x/7c/45/9d/7c459d7b4e6a2e5d0d2fd83c1f23dc4f.jpg",
+      "https://i.pinimg.com/736x/76/d3/6c/76d36c9c02ade575ebb8208786e0ef9a.jpg",
       "https://i.pinimg.com/736x/2e/fb/16/2efb16c520ea15b35d0e063a67f77469.jpg",
       "https://i.pinimg.com/736x/07/a3/18/07a31841c4eccaa32ff4cde3b673d7c7.jpg"
     ]
