@@ -1,4 +1,20 @@
 const profiles = [
+{
+    name: "Nives Markovic",
+    status: "Split • Online",
+    avatar: "https://i.pinimg.com/1200x/fd/86/96/fd8696d0ef59b161b9f51ee3411cd2fa.jpg",
+    caption: "Mediterranean yacht escapes, beach clubs and unforgettable Adriatic sunsets.",
+    hashtags: "#CroatiaLuxury #YachtLife #BeachClub #VIP",
+    likes: "19.4k",
+    bookings: "4,780 Views",
+    photos: [
+      "https://i.pinimg.com/736x/da/71/58/da71587ea54b4e3ce8c036ac5b1019eb.jpg",
+      "https://i.pinimg.com/736x/f7/0c/0c/f70c0cb28c937f02b4725d551dea2e50.jpg",
+      "https://i.pinimg.com/736x/9a/6d/dc/9a6ddc1f656c264bde2da1974d0b036c.jpg"
+    ]
+  },
+
+
 
   {
     name: "Emma Rivera",
@@ -180,19 +196,6 @@ const profiles = [
     ]
   },
 
-  {
-    name: "Nives Markovic",
-    status: "Split • Online",
-    avatar: "https://i.pinimg.com/736x/8d/1f/5c/8d1f5c0c20d0b96b42a7f682a0d06e0d.jpg",
-    caption: "Mediterranean yacht escapes, beach clubs and unforgettable Adriatic sunsets.",
-    hashtags: "#CroatiaLuxury #YachtLife #BeachClub #VIP",
-    likes: "19.4k",
-    bookings: "4,780 Views",
-    photos: [
-      "https://i.pinimg.com/736x/8d/1f/5c/8d1f5c0c20d0b96b42a7f682a0d06e0d.jpg",
-      "https://i.pinimg.com/736x/91/17/84/9117843d5428f41a0a2f87d58a4c29f1.jpg",
-      "https://i.pinimg.com/736x/4d/e7/f9/4de7f9207df9f9ef66e58c3e4df8d4e6.jpg"
-    ]
-  }
+  
 
 ];
