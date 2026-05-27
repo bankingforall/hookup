@@ -61,6 +61,8 @@ const profiles = [
     ]
   },
 
+
+    
   {
     name: "Natalie Brooks",
     status: "Paris • Online",
