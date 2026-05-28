@@ -19,14 +19,14 @@ const profiles = [
   {
     name: "Emma Rivera",
     status: "Dubai • Verified",
-    avatar: "https://i.pinimg.com/736x/d5/6f/48/d56f4896842ee94afe5b212af4b362d0.jpg",
+    avatar: "https://i.pinimg.com/736x/5e/1b/cd/5e1bcd1025798555b32780d0a0ede58c.jpg",
     caption: "Elegant city escapes, fine dining and unforgettable luxury experiences available.",
     hashtags: "#LuxuryLife #FineDining #Travel #VIP",
     likes: "1.2k",
     bookings: "4,120 Views",
     photos: [
-      "https://i.pinimg.com/736x/90/0e/a7/900ea761385646bcedec1fa25b3d71b6.jpg",
-      "https://i.pinimg.com/736x/ec/b7/d8/ecb7d859723c4a6c607c4279572bb5a6.jpg",
+      "https://i.pinimg.com/736x/90/0e/a7/900ea761385646bcedec1fa25b3d71b6.jpg ",
+      "https://i.pinimg.com/736x/44/a8/4b/44a84b81e649bf8e369478bed5c9003f.jpg",
       "https://i.pinimg.com/736x/b2/fa/98/b2fa989b8edb87436e179b3e9bd515a2.jpg"
     ]
   },
@@ -34,7 +34,7 @@ const profiles = [
   {
     name: "Bianca Moretti",
     status: "Milan • Verified",
-    avatar: "https://i.pinimg.com/1200x/0f/4c/50/0f4c50c371cadb75881d028c138ea6d1.jpg",
+    avatar: "https://i.pinimg.com/736x/90/0e/a7/900ea761385646bcedec1fa25b3d71b6.jpg",
     caption: "Italian fashion nights, private dining and luxury companionship for elite events.",
     hashtags: "#MilanStyle #Luxury #FashionWeek #VIP",
     likes: "21.1k",
