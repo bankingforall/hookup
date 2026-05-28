@@ -25,7 +25,7 @@ const profiles = [
     likes: "1.2k",
     bookings: "4,120 Views",
     photos: [
-      "https://i.pinimg.com/736x/90/0e/a7/900ea761385646bcedec1fa25b3d71b6.jpg ",
+      "https://i.pinimg.com/736x/5e/1b/cd/5e1bcd1025798555b32780d0a0ede58c.jpg",
       "https://i.pinimg.com/736x/44/a8/4b/44a84b81e649bf8e369478bed5c9003f.jpg",
       "https://i.pinimg.com/736x/b2/fa/98/b2fa989b8edb87436e179b3e9bd515a2.jpg"
     ]
@@ -109,6 +109,100 @@ const profiles = [
   },
 
 
+    
+  {
+    name: "Saskia Van Doren",
+    status: "Amsterdam • Live",
+    avatar: "https://i.pinimg.com/736x/4e/6b/65/4e6b65cb8fcd39d5dc89d64c9c31f36d.jpg",
+    caption: "Private canal cruises, luxury brunches and unforgettable Amsterdam nights.",
+    hashtags: "#Amsterdam #LuxuryTravel #Exclusive #VIP",
+    likes: "13.9k",
+    bookings: "3,290 Views",
+    photos: [
+      "https://i.pinimg.com/736x/4e/6b/65/4e6b65cb8fcd39d5dc89d64c9c31f36d.jpg",
+      "https://i.pinimg.com/736x/ab/e9/0f/abe90f02a25b44a3d3bcb3c7f9d21f72.jpg",
+      "https://i.pinimg.com/736x/f7/f9/44/f7f9448b2d4637d9bb7e7a49dbf1f4bb.jpg"
+    ]
+  },
+
+  {
+    name: "Eliska Novakova",
+    status: "Prague • Online",
+    avatar: "https://i.pinimg.com/736x/9b/7e/8f/9b7e8fd09dbabf4a9ddf7ccdf88f4a31.jpg",
+    caption: "Historic city walks, cocktail lounges and elegant company for special evenings.",
+    hashtags: "#PragueNights #Elegant #TravelLuxury #VIP",
+    likes: "10.1k",
+    bookings: "2,080 Views",
+    photos: [
+      "https://i.pinimg.com/736x/9b/7e/8f/9b7e8fd09dbabf4a9ddf7ccdf88f4a31.jpg",
+      "https://i.pinimg.com/736x/47/6a/29/476a2947d4f55f8f95f98efdb5df8d7e.jpg",
+      "https://i.pinimg.com/736x/6d/41/84/6d4184844dd70b14fdc71b77f2fc2c2e.jpg"
+    ]
+  },
+
+  {
+    name: "Chiara Bellandi",
+    status: "Rome • Verified",
+    avatar: "https://i.pinimg.com/736x/1d/7a/83/1d7a8393a9eb1d79a7e2d1d1fc6a6496.jpg",
+    caption: "Luxury Roman evenings, fine dining and unforgettable cultural escapes.",
+    hashtags: "#Rome #ItalianLuxury #FineDining #Exclusive",
+    likes: "17.5k",
+    bookings: "4,420 Views",
+    photos: [
+      "https://i.pinimg.com/736x/1d/7a/83/1d7a8393a9eb1d79a7e2d1d1fc6a6496.jpg",
+      "https://i.pinimg.com/736x/f2/4f/9a/f24f9ab89c0d8fd8eb3cc95ef9ddf645.jpg",
+      "https://i.pinimg.com/736x/72/9e/7d/729e7d9d25b6ef03dc9d01f6b4db42d0.jpg"
+    ]
+  },
+
+  {
+    name: "Maëlle Dufour",
+    status: "Monaco • Online",
+    avatar: "https://i.pinimg.com/736x/5d/ea/34/5dea34fbc7e4b853a73a4e89b9c17fd8.jpg",
+    caption: "Yacht parties, luxury casinos and sophisticated evenings on the Riviera.",
+    hashtags: "#Monaco #RivieraLife #LuxuryVIP #YachtLife",
+    likes: "24.8k",
+    bookings: "5,920 Views",
+    photos: [
+      "https://i.pinimg.com/736x/5d/ea/34/5dea34fbc7e4b853a73a4e89b9c17fd8.jpg",
+      "https://i.pinimg.com/736x/77/90/c0/7790c06bcf1a0dd6c50c61f9a7e2eb2f.jpg",
+      "https://i.pinimg.com/736x/2f/99/5f/2f995fd96ef86f7f9e4abf861bd0f9bd.jpg"
+    ]
+  },
+
+  {
+    name: "Zofia Lewandowska",
+    status: "Warsaw • Live",
+    avatar: "https://i.pinimg.com/736x/63/f5/3e/63f53ea1c63b74f4f3d5c2f96d86589f.jpg",
+    caption: "Luxury dinners, penthouse evenings and premium lifestyle experiences.",
+    hashtags: "#WarsawElite #Luxury #Nightlife #Exclusive",
+    likes: "14.2k",
+    bookings: "3,170 Views",
+    photos: [
+      "https://i.pinimg.com/736x/63/f5/3e/63f53ea1c63b74f4f3d5c2f96d86589f.jpg",
+      "https://i.pinimg.com/736x/4a/68/89/4a6889b3cfd92c3b2eb7d15dc36f2d6a.jpg",
+      "https://i.pinimg.com/736x/92/2b/7f/922b7f63d7d7fa92e4a67f0a1fc02f51.jpg"
+    ]
+  },
+
+  {
+    name: "Freja Lindholm",
+    status: "Copenhagen • Verified",
+    avatar: "https://i.pinimg.com/736x/58/9e/3f/589e3f57f47f75dc8a637b5d70cdbcb7.jpg",
+    caption: "Minimalist Scandinavian elegance with exclusive city experiences and fine wine nights.",
+    hashtags: "#ScandinavianStyle #LuxuryLife #Copenhagen #VIP",
+    likes: "16.9k",
+    bookings: "4,010 Views",
+    photos: [
+      "https://i.pinimg.com/736x/58/9e/3f/589e3f57f47f75dc8a637b5d70cdbcb7.jpg",
+      "https://i.pinimg.com/736x/1f/e2/39/1fe2399bcdb8b7b85bbdfe8b67134d74.jpg",
+      "https://i.pinimg.com/736x/6b/e8/3d/6be83d52b0bba09fef68bc6bb4db7dc4.jpg"
+    ]
+  },
+
+  
+
+];
     
   {
     name: "Saskia Van Doren",
