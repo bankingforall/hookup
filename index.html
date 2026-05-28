@@ -620,6 +620,7 @@
     }
   }
 </style>
+
 <style>
   @media (max-width: 900px) {
 
@@ -689,7 +690,73 @@
   }
 </style>
 
+
+<style>
+  /* AUTH MODAL */
+.auth-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  z-index: 30000;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease;
+}
+
+.auth-modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.auth-modal {
+  width: 100%;
+  max-width: 420px;
+  background: white;
+  border-radius: 30px;
+  padding: 35px;
+  text-align: center;
+  transform: translateY(30px) scale(0.95);
+  transition: 0.35s ease;
+  box-shadow: 0 30px 60px rgba(0,0,0,0.25);
+}
+
+.auth-modal-overlay.active .auth-modal {
+  transform: translateY(0) scale(1);
+}
+
+.auth-modal h2 {
+  font-size: 2rem;
+  margin-bottom: 14px;
+  color: #111827;
+}
+
+.auth-modal p {
+  color: #6b7280;
+  line-height: 1.7;
+  margin-bottom: 28px;
+}
+
+.auth-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.auth-btn {
+  width: 100%;
+  padding: 14px;
+  font-size: 1rem;
+}
+</style>
+
 </head>
+
 <body>
 
 <!-- NAVBAR -->
@@ -731,14 +798,14 @@
 
     <div class="hero-content">
         <h1>Are you horny?</h1>
-      <p>Connect, Book & Fuck Exclusive Divas</p>
+      <p>Connect, Match & Book Exclusive Divas</p>
       <p>
-        Discover verified profiles, premium sexy girls ready to fuck you. Instant bookings,
+        Discover verified profiles, premium sexy girls ready to fuck you, instant bookings,
         and Satisfaction in one elegant platform built to satisfy your urges.
       </p>
 
       <div class="hero-buttons">
-        <button class="btn btn-primary" onclick="document.getElementById('section2').scrollIntoView({behavior: 'smooth'})">Start Exploring</button>
+        <button class="btn btn-primary">Start Exploring</button>
         <button class="btn btn-outline" style="color:white;border-color:rgba(255,255,255,0.3);">
           Watch Demo
         </button>
@@ -751,7 +818,7 @@
 -->
   </section>
 
-  <section class="profiles-section" id="section2">
+  <section class="profiles-section">
     <div class="section-heading">
       <div>
         <h2>Available Profiles For Booking</h2>
@@ -832,6 +899,29 @@
     </div>
   </footer>
 
+<!-- SIGN IN MODAL -->
+<div class="auth-modal-overlay" id="authModal">
+  <div class="auth-modal">
+    
+    <h2>Sign in required</h2>
+
+    <p>
+      You need an account to follow profiles, access premium content
+      and unlock bookings.
+    </p>
+
+    <div class="auth-buttons">
+      <button class="btn btn-primary auth-btn">
+        Sign In
+      </button>
+
+      <button class="btn btn-outline auth-btn">
+        Create Account
+      </button>
+    </div>
+
+  </div>
+</div>
 
 <script src="profilesdata.js"></script>
 
@@ -886,7 +976,25 @@
 
     profilesGrid.appendChild(card);
   });
-</script>  
+
+  // MODAL
+  const authModal = document.getElementById('authModal');
+
+  // OPEN MODAL
+  document.addEventListener('click', (e) => {
+    if (e.target.classList.contains('follow-btn')) {
+      authModal.classList.add('active');
+    }
+  });
+
+  // CLOSE WHEN CLICKING OUTSIDE
+  authModal.addEventListener('click', (e) => {
+    if (e.target === authModal) {
+      authModal.classList.remove('active');
+    }
+  });
+
+</script> 
 
 
 <script>
@@ -922,6 +1030,75 @@
     }
   });
 </script>
+
+
+
+
+<style>
+  /* AUTH MODAL */
+.auth-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  z-index: 30000;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease;
+}
+
+.auth-modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.auth-modal {
+  width: 100%;
+  max-width: 420px;
+  background: white;
+  border-radius: 30px;
+  padding: 35px;
+  text-align: center;
+  transform: translateY(30px) scale(0.95);
+  transition: 0.35s ease;
+  box-shadow: 0 30px 60px rgba(0,0,0,0.25);
+}
+
+.auth-modal-overlay.active .auth-modal {
+  transform: translateY(0) scale(1);
+}
+
+.auth-modal h2 {
+  font-size: 2rem;
+  margin-bottom: 14px;
+  color: #111827;
+}
+
+.auth-modal p {
+  color: #6b7280;
+  line-height: 1.7;
+  margin-bottom: 28px;
+}
+
+.auth-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.auth-btn {
+  width: 100%;
+  padding: 14px;
+  font-size: 1rem;
+}
+</style>
+
+
 
 </body>
 </html>
