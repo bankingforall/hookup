@@ -755,6 +755,90 @@
 }
 </style>
 
+
+<style>
+
+ /* AGE MODAL */
+
+.age-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.72);
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 20000;
+  padding: 20px;
+}
+
+.age-modal {
+  width: 100%;
+  max-width: 430px;
+  background: white;
+  border-radius: 30px;
+  padding: 38px 30px;
+  text-align: center;
+  animation: modalFade 0.35s ease;
+  box-shadow: 0 30px 80px rgba(0,0,0,0.3);
+}
+
+.age-modal h2 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+  color: #111827;
+}
+
+.age-modal p {
+  color: #6b7280;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  font-size: 1rem;
+}
+
+.age-modal-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.age-btn {
+  border: none;
+  padding: 15px 20px;
+  border-radius: 999px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.age-btn:hover {
+  transform: translateY(-2px);
+}
+
+.underage-btn {
+  background: #f3f4f6;
+  color: #111827;
+}
+
+.adult-btn {
+  background: linear-gradient(90deg,#ff4d6d,#8b5cf6);
+  color: white;
+  box-shadow: 0 12px 25px rgba(139,92,246,0.28);
+}
+
+@keyframes modalFade {
+  from {
+    opacity: 0;
+    transform: scale(0.92) translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+} 
+</style>
+
 </head>
 
 <body>
@@ -922,6 +1006,48 @@
 
   </div>
 </div>
+
+
+<!-- AGE VERIFICATION MODAL -->
+<div class="age-modal-overlay" id="ageModal">
+  <div class="age-modal">
+    <h2>Adults Only</h2>
+    <p>
+      This platform contains adult-oriented content and is intended only for visitors who are 18 years or older.
+    </p>
+
+    <div class="age-modal-buttons">
+      <button class="age-btn underage-btn" id="under18Btn">
+        No, I'm Under 18
+      </button>
+
+      <button class="age-btn adult-btn" id="adultBtn">
+        Yes, I'm 18+
+      </button>
+    </div>
+  </div>
+</div>
+
+<!--age verification modal-->
+<script>
+  const ageModal = document.getElementById('ageModal');
+  const adultBtn = document.getElementById('adultBtn');
+  const under18Btn = document.getElementById('under18Btn');
+
+  // lock scrolling while modal is open
+  document.body.style.overflow = 'hidden';
+
+  // user is 18+
+  adultBtn.addEventListener('click', () => {
+    ageModal.style.display = 'none';
+    document.body.style.overflow = 'auto';
+  });
+
+  // user is under 18
+  under18Btn.addEventListener('click', () => {
+    window.location.href = 'https://www.google.com';
+  });
+</script>
 
 <script src="profilesdata.js"></script>
 
@@ -1097,6 +1223,7 @@
   font-size: 1rem;
 }
 </style>
+
 
 
 
