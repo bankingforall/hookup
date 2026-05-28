@@ -2,7 +2,7 @@ const profiles = [
 
  {
     name: "Chiara Bellandi",
-    status: "Rome â€¢ Verified",
+    status: "Rome • Verified",
     avatar: "https://cdni.pornpics.com/1280/3/21/28508943/28508943_008_fad3.jpg",
     caption: "Luxury Roman evenings, fine dining and unforgettable cultural escapes.",
     hashtags: "#Rome #ItalianLuxury #FineDining #Exclusive",
@@ -18,7 +18,7 @@ const profiles = [
 
 {
     name: "Nives Markovic",
-    status: "Split â€¢ Online",
+    status: "Split • Online",
     avatar: "https://i.pinimg.com/1200x/fd/86/96/fd8696d0ef59b161b9f51ee3411cd2fa.jpg",
     caption: "Mediterranean yacht escapes, beach clubs and unforgettable Adriatic sunsets.",
     hashtags: "#CroatiaLuxury #YachtLife #BeachClub #VIP",
@@ -35,7 +35,7 @@ const profiles = [
 
   {
     name: "Emma Rivera",
-    status: "Dubai â€¢ Verified",
+    status: "Dubai • Verified",
     avatar: "https://i.pinimg.com/736x/72/ca/8f/72ca8ffdac1505a55aff7f4481199d7a.jpg",
     caption: "Elegant city escapes, fine dining and unforgettable luxury experiences available.",
     hashtags: "#LuxuryLife #FineDining #Travel #VIP",
@@ -50,7 +50,7 @@ const profiles = [
 
   {
     name: "Bianca Moretti",
-    status: "Milan â€¢ Verified",
+    status: "Milan • Verified",
     avatar: "https://i.pinimg.com/1200x/0f/4c/50/0f4c50c371cadb75881d028c138ea6d1.jpg",
     caption: "Italian fashion nights, private dining and luxury companionship for elite events.",
     hashtags: "#MilanStyle #Luxury #FashionWeek #VIP",
@@ -65,7 +65,7 @@ const profiles = [
 
   {
     name: "Cassandra Lucas",
-    status: "Los Angeles â€¢ Live",
+    status: "Los Angeles • Live",
     avatar: "https://i.pinimg.com/1200x/8f/31/90/8f31904d3b1f2c157d2b3a51db407bae.jpg",
     caption: "Private rooftop dinners, nightlife tours and premium social events available tonight.",
     hashtags: "#Nightlife #Lifestyle #Luxury #Events",
@@ -82,7 +82,7 @@ const profiles = [
     
   {
     name: "Natalie Brooks",
-    status: "Paris â€¢ Online",
+    status: "Paris • Online",
     avatar: "https://i.pinimg.com/736x/9f/c4/f1/9fc4f13ca2d5602f21958169791b1bd1.jpg",
     caption: "Luxury fashion events, fine wine nights and exclusive experiences available.",
     hashtags: "#Fashion #Luxury #Lifestyle #Travel",
@@ -97,7 +97,7 @@ const profiles = [
 
   {
     name: "Sophia Lane",
-    status: "Miami â€¢ Online",
+    status: "Miami • Online",
     avatar: "https://i.pinimg.com/736x/89/77/1f/89771f5f643d4721a0c97372ec7fcd4b.jpg",
     caption: "Sunset yacht vibes and luxury nights. Currently open for VIP bookings this weekend âœ¨",
     hashtags: "#Luxury #Travel #VIP #Exclusive",
@@ -112,7 +112,7 @@ const profiles = [
 
   {
     name: "Anouk Verhaegen",
-    status: "Brussels â€¢ Verified",
+    status: "Brussels • Verified",
     avatar: "https://i.pinimg.com/736x/70/82/3a/70823abfbaaa4d4a2b8c0ab4a00c88d3.jpg",
     caption: "Art gallery evenings, champagne lounges and curated luxury experiences.",
     hashtags: "#Brussels #ArtLife #LuxuryNights #Elite",
@@ -129,7 +129,7 @@ const profiles = [
     
   {
     name: "Saskia Van Doren",
-    status: "Amsterdam â€¢ Live",
+    status: "Amsterdam • Live",
     avatar: "https://i.pinimg.com/736x/0e/94/bd/0e94bd827a1228792736ef7816da9b78.jpg",
     caption: "Private canal cruises, luxury brunches and unforgettable Amsterdam nights.",
     hashtags: "#Amsterdam #LuxuryTravel #Exclusive #VIP",
@@ -144,7 +144,7 @@ const profiles = [
 
   {
     name: "Eliska Novakova",
-    status: "Prague â€¢ Online",
+    status: "Prague • Online",
     avatar: "https://i.pinimg.com/736x/f0/db/b9/f0dbb9bbd454219a2670f857d1315356.jpg",
     caption: "Historic city walks, cocktail lounges and elegant company for special evenings.",
     hashtags: "#PragueNights #Elegant #TravelLuxury #VIP",
@@ -161,22 +161,22 @@ const profiles = [
 
   {
     name: "MaÃ«lle Dufour",
-    status: "Monaco â€¢ Online",
-    avatar: "https://i.pinimg.com/736x/5d/ea/34/5dea34fbc7e4b853a73a4e89b9c17fd8.jpg",
+    status: "Monaco • Online",
+    avatar: "https://cdni.pornpics.com/460/3/26/30959232/30959232_027_0752.jpg",
     caption: "Yacht parties, luxury casinos and sophisticated evenings on the Riviera.",
     hashtags: "#Monaco #RivieraLife #LuxuryVIP #YachtLife",
     likes: "24.8k",
     bookings: "5,920 Views",
     photos: [
-      "https://i.pinimg.com/736x/5d/ea/34/5dea34fbc7e4b853a73a4e89b9c17fd8.jpg",
-      "https://i.pinimg.com/736x/77/90/c0/7790c06bcf1a0dd6c50c61f9a7e2eb2f.jpg",
-      "https://i.pinimg.com/736x/2f/99/5f/2f995fd96ef86f7f9e4abf861bd0f9bd.jpg"
+      "https://cdni.pornpics.com/460/3/26/30959232/30959232_026_88a3.jpg",
+      "https://cdni.pornpics.com/460/3/26/30959232/30959232_017_0d60.jpg",
+      "https://cdni.pornpics.com/460/3/26/30959232/30959232_029_6823.jpg"
     ]
   },
 
   {
     name: "Zofia Lewandowska",
-    status: "Warsaw â€¢ Live",
+    status: "Warsaw • Live",
     avatar: "https://i.pinimg.com/736x/63/f5/3e/63f53ea1c63b74f4f3d5c2f96d86589f.jpg",
     caption: "Luxury dinners, penthouse evenings and premium lifestyle experiences.",
     hashtags: "#WarsawElite #Luxury #Nightlife #Exclusive",
@@ -191,7 +191,7 @@ const profiles = [
 
   {
     name: "Freja Lindholm",
-    status: "Copenhagen â€¢ Verified",
+    status: "Copenhagen • Verified",
     avatar: "https://i.pinimg.com/736x/58/9e/3f/589e3f57f47f75dc8a637b5d70cdbcb7.jpg",
     caption: "Minimalist Scandinavian elegance with exclusive city experiences and fine wine nights.",
     hashtags: "#ScandinavianStyle #LuxuryLife #Copenhagen #VIP",
