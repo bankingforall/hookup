@@ -19,15 +19,15 @@ const profiles = [
   {
     name: "Emma Rivera",
     status: "Dubai • Verified",
-    avatar: "https://i.pinimg.com/736x/90/0e/a7/900ea761385646bcedec1fa25b3d71b6.jpg",
+    avatar: "https://i.pinimg.com/736x/d5/6f/48/d56f4896842ee94afe5b212af4b362d0.jpg",
     caption: "Elegant city escapes, fine dining and unforgettable luxury experiences available.",
     hashtags: "#LuxuryLife #FineDining #Travel #VIP",
-    likes: "18.2k",
+    likes: "1.2k",
     bookings: "4,120 Views",
     photos: [
       "https://i.pinimg.com/736x/90/0e/a7/900ea761385646bcedec1fa25b3d71b6.jpg",
       "https://i.pinimg.com/736x/ec/b7/d8/ecb7d859723c4a6c607c4279572bb5a6.jpg",
-      "https://i.pinimg.com/1200x/be/3e/d3/be3ed313d18b89bb9b01d5b3607efaab.jpg"
+      "https://i.pinimg.com/736x/b2/fa/98/b2fa989b8edb87436e179b3e9bd515a2.jpg"
     ]
   },
 
