@@ -177,30 +177,30 @@ const profiles = [
   {
     name: "Zofia Lewandowska",
     status: "Warsaw • Live",
-    avatar: "https://i.pinimg.com/736x/63/f5/3e/63f53ea1c63b74f4f3d5c2f96d86589f.jpg",
+    avatar: "https://cdni.pornpics.com/460/3/19/98152222/98152222_006_ba8b.jpg",
     caption: "Luxury dinners, penthouse evenings and premium lifestyle experiences.",
     hashtags: "#WarsawElite #Luxury #Nightlife #Exclusive",
     likes: "14.2k",
     bookings: "3,170 Views",
     photos: [
-      "https://i.pinimg.com/736x/63/f5/3e/63f53ea1c63b74f4f3d5c2f96d86589f.jpg",
-      "https://i.pinimg.com/736x/4a/68/89/4a6889b3cfd92c3b2eb7d15dc36f2d6a.jpg",
-      "https://i.pinimg.com/736x/92/2b/7f/922b7f63d7d7fa92e4a67f0a1fc02f51.jpg"
+      "https://cdni.pornpics.com/460/3/19/98152222/98152222_004_6fc4.jpg",
+      "https://cdni.pornpics.com/460/3/19/98152222/98152222_016_1424.jpg",
+      "https://cdni.pornpics.com/460/3/19/98152222/98152222_017_f44d.jpg"
     ]
   },
 
   {
     name: "Freja Lindholm",
     status: "Copenhagen • Verified",
-    avatar: "https://i.pinimg.com/736x/58/9e/3f/589e3f57f47f75dc8a637b5d70cdbcb7.jpg",
+    avatar: "https://cdni.pornpics.com/1280/7/705/49716280/49716280_003_21ad.jpg",
     caption: "Minimalist Scandinavian elegance with exclusive city experiences and fine wine nights.",
     hashtags: "#ScandinavianStyle #LuxuryLife #Copenhagen #VIP",
     likes: "16.9k",
     bookings: "4,010 Views",
     photos: [
-      "https://i.pinimg.com/736x/58/9e/3f/589e3f57f47f75dc8a637b5d70cdbcb7.jpg",
-      "https://i.pinimg.com/736x/1f/e2/39/1fe2399bcdb8b7b85bbdfe8b67134d74.jpg",
-      "https://i.pinimg.com/736x/6b/e8/3d/6be83d52b0bba09fef68bc6bb4db7dc4.jpg"
+      "https://cdni.pornpics.com/1280/7/705/49716280/49716280_012_197e.jpg",
+      "https://cdni.pornpics.com/1280/7/705/49716280/49716280_007_ed96.jpg",
+      "https://cdni.pornpics.com/1280/7/705/49716280/49716280_001_eb99.jpg"
     ]
   },
 
