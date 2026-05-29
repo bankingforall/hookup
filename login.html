@@ -6,6 +6,7 @@
   <title>LuxeConnect — Sign In</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
 
   <style>
     *{
@@ -257,7 +258,67 @@
 
     }
   </style>
+
+<style>
+.password-wrapper{
+  position:relative;
+  width:100%;
+}
+
+.password-wrapper .form-input{
+  padding-right:55px;
+}
+
+.password-toggle{
+  position:absolute;
+  top:50%;
+  right:20px;
+  transform:translateY(-50%);
+  color:rgba(255,255,255,0.55);
+  cursor:pointer;
+  font-size:1rem;
+  transition:0.3s ease;
+}
+
+.password-toggle:hover{
+  color:white;
+}
+</style> 
+
+  <style>
+  .login-status{
+    margin-top:20px;
+    padding:16px 18px;
+    border-radius:16px;
+    font-size:0.95rem;
+    display:none;
+    line-height:1.6;
+    font-weight:600;
+  }
+
+  .login-status.success{
+    display:block;
+    background:rgba(34,197,94,0.14);
+    border:1px solid rgba(34,197,94,0.35);
+    color:#86efac;
+  }
+
+  .login-status.error{
+    display:block;
+    background:rgba(239,68,68,0.14);
+    border:1px solid rgba(239,68,68,0.35);
+    color:#fca5a5;
+  }
+
+  .login-status.loading{
+    display:block;
+    background:rgba(139,92,246,0.14);
+    border:1px solid rgba(139,92,246,0.35);
+    color:#d8b4fe;
+  }
+  </style>
 </head>
+
 <body>
 
   <div class="glow"></div>
@@ -271,44 +332,60 @@
       luxury experiences and exclusive private access.
     </p>
 
-    <form>
+<form id="loginForm">
 
-      <div class="form-group">
-        <label class="form-label">Email Address</label>
-        <input
-          type="email"
-          class="form-input"
-          placeholder="Enter your email"
-        />
-      </div>
+  <div class="form-group">
+    <label class="form-label">Email Address</label>
 
-      <div class="form-group">
-        <label class="form-label">Password</label>
-        <input
-          type="password"
-          class="form-input"
-          placeholder="Enter your password"
-        />
-      </div>
+    <input
+      type="email"
+      class="form-input"
+      id="email"
+      placeholder="Enter your email"
+      required
+    />
+  </div>
 
-      <div class="options-row">
+  <div class="form-group">
+    <label class="form-label">Password</label>
 
-        <label class="remember">
-          <input type="checkbox">
-          Remember me
-        </label>
+    <div class="password-wrapper">
 
-        <a href="#" class="forgot-link">
-          Forgot Password?
-        </a>
+      <input
+        type="password"
+        class="form-input"
+        id="passwordInput"
+        placeholder="Enter your password"
+        required
+      />
 
-      </div>
+      <i class="fa-solid fa-eye password-toggle"
+         id="togglePassword"></i>
 
-      <button class="signin-btn">
-        Sign In
-      </button>
+    </div>
+  </div>
 
-    </form>
+  <div class="options-row">
+
+    <label class="remember">
+      <input type="checkbox" id="rememberMe">
+      Remember me
+    </label>
+
+    <a href="#" class="forgot-link">
+      Forgot Password?
+    </a>
+
+  </div>
+
+  <button class="signin-btn" id="loginBtn">
+    Sign In
+  </button>
+
+</form>
+
+<!-- LOGIN STATUS -->
+<div class="login-status" id="loginStatus"></div>
 
     <div class="divider">
       or continue with
@@ -338,6 +415,145 @@
     </div>
 
   </div>
+
+
+
+<script>
+
+const SCRIPT_URL =
+"https://script.google.com/macros/s/AKfycbwsrg89zEsQ7oA_00NOrONLZagmkjl0vEhJskL5CqqzXG1ehPCLlJZ13V_T5JP2EcCtyw/exec";
+
+/* =========================
+   PASSWORD TOGGLE
+========================= */
+
+const passwordInput = document.getElementById("passwordInput");
+const togglePassword = document.getElementById("togglePassword");
+
+togglePassword.addEventListener("click", () => {
+  const isHidden = passwordInput.type === "password";
+  passwordInput.type = isHidden ? "text" : "password";
+
+  togglePassword.classList.toggle("fa-eye");
+  togglePassword.classList.toggle("fa-eye-slash");
+});
+
+/* =========================
+   STATUS UI
+========================= */
+
+function showStatus(type, message) {
+  const box = document.getElementById("loginStatus");
+  box.className = "login-status " + type;
+  box.innerHTML = message;
+}
+
+/* =========================
+   REDIRECT IF ALREADY LOGGED IN
+========================= */
+
+const existingUser = localStorage.getItem("luxeUser");
+
+if (existingUser) {
+  try {
+    const parsed = JSON.parse(existingUser);
+    if (parsed?.uid) {
+      window.location.href = "dashboard.html";
+    }
+  } catch (e) {
+    localStorage.removeItem("luxeUser");
+  }
+}
+
+/* =========================
+   SAFE API CALL
+========================= */
+
+async function postData(payload) {
+
+  const res = await fetch(SCRIPT_URL, {
+    method: "POST",
+    body: JSON.stringify(payload)
+  });
+
+  const text = await res.text();
+  console.log("RAW RESPONSE:", text);
+
+  try {
+    return JSON.parse(text);
+  } catch (err) {
+    throw new Error("Server returned invalid response");
+  }
+}
+
+/* =========================
+   LOGIN FORM
+========================= */
+
+document.getElementById("loginForm")
+.addEventListener("submit", async (e) => {
+
+  e.preventDefault();
+
+  const email = document.getElementById("email").value.trim().toLowerCase();
+  const password = document.getElementById("passwordInput").value.trim();
+  const rememberMe = document.getElementById("rememberMe").checked;
+
+  if (!email || !password) {
+    showStatus("error", "Please enter email and password.");
+    return;
+  }
+
+  showStatus("loading", "Signing you in...");
+
+  const btn = document.getElementById("loginBtn");
+  btn.disabled = true;
+  btn.innerHTML = "Signing In...";
+
+  try {
+
+    const data = await postData({
+      action: "login",
+      email,
+      password
+    });
+
+    if (data?.status && data?.user) {
+
+      const user = data.user;
+
+      // save session
+      localStorage.setItem("luxeUser", JSON.stringify(user));
+      localStorage.setItem("luxeUserUID", user.uid);
+      localStorage.setItem("luxeUserEmail", user.email);
+
+      if (rememberMe) {
+        localStorage.setItem("luxeRemember", "true");
+      } else {
+        localStorage.removeItem("luxeRemember");
+      }
+
+      showStatus("success", "Login successful. Redirecting...");
+
+      setTimeout(() => {
+        window.location.href = "dashboard.html";
+      }, 1000);
+
+    } else {
+      showStatus("error", data?.message || "Invalid email or password.");
+    }
+
+  } catch (err) {
+    console.log(err);
+    showStatus("error", "Network or server error. Try again.");
+  }
+
+  btn.disabled = false;
+  btn.innerHTML = "Sign In";
+
+});
+
+</script>
 
 </body>
 </html>
